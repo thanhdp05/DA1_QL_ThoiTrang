@@ -13,7 +13,7 @@ import java.sql.Date;
 public class hoaDon {
     int maHD;
     int maND;
-    float tongTien;
+    double tongTien;
     Date ngayTao;
 
     public hoaDon() {
@@ -42,7 +42,7 @@ public class hoaDon {
         this.maND = maND;
     }
 
-    public float getTongTien() {
+    public double getTongTien() {
         return tongTien;
     }
 

@@ -12,7 +12,7 @@ public class hoaDonChiTiet {
     int maHD;
     String maSP;
     int soLuong;
-    float donGia;
+    double donGia;
 
     public hoaDonChiTiet() {
     }
@@ -48,7 +48,7 @@ public class hoaDonChiTiet {
         this.soLuong = soLuong;
     }
 
-    public float getDonGia() {
+    public double getDonGia() {
         return donGia;
     }
 

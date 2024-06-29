@@ -16,7 +16,7 @@ public class sanPham {
     String loaiSP;
     String hangSP;
     int soLuong;
-    float giaTien;
+    double giaTien;
     int size;
     String hinh;
     Date ngayTao;
@@ -80,7 +80,7 @@ public class sanPham {
         this.soLuong = soLuong;
     }
 
-    public float getGiaTien() {
+    public double getGiaTien() {
         return giaTien;
     }
 
